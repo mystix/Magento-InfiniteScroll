@@ -5,7 +5,7 @@ This extension is for when the user reaches the end of the current product list,
 Installation:
 -----
 - Download from Magento Connect: http://www.magentocommerce.com/magento-connect/strategery-infinitescroll-2-9213.html
-- Configure the selectos for your theme on System / Configuration seccion.
+- Configure the selectors for your theme on System / Configuration section.
 - Refresh your Magento cache.
 - Scroll to infinity and beyond!
 
