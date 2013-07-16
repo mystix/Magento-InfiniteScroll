@@ -1,0 +1,5 @@
+infinitescroll/app/code/community/*                             app/code/community/
+infinitescroll/app/design/frontend/default/default/layout/*     app/design/base/default/layout/
+infinitescroll/app/design/frontend/default/default/template/*   app/design/base/default/template/
+infinitescroll/app/etc/modules/*                                app/etc/modules/
+infinitescroll/js/jquery/infinitescroll2                        js/jquery/infinitescroll2
