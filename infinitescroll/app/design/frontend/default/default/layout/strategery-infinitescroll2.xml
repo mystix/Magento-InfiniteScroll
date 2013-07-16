@@ -10,13 +10,13 @@
  * http://opensource.org/licenses/afl-3.0.php
  *
  * @category   Strategery
- * @package    Strategery_Infinitescroll2	   
+ * @package    Strategery_Infinitescroll2
  * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  * @copyright  Copyright (c) 2011 Strategery Inc. (http://usestrategery.com)
- * 
+ *
  * @author     Gabriel Somoza (me@gabrielsomoza.com)
  * @link       http://gabrielsomoza.com/
- * 
+ *
  * Update 2.0.0
  * @author     Damian A. Pastorini (admin@dwdesigner.com)
  * @link       http://www.dwdesigner.com/
@@ -33,10 +33,7 @@
 
 	<catalog_category_default>
 		<reference name="head">
-			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
-				<type>js</type>
-				<name>jquery/jquery.latest.min.js</name>
-			</action>
+            <action method="addJs" ifconfig="infinitescroll2/general/enabled"><script>jquery/jquery.min.js</script></action>
 			<!--
 			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
 				<type>js</type>
@@ -68,10 +65,7 @@
 
 	<catalog_category_layered>
 		<reference name="head">
-			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
-				<type>js</type>
-				<name>jquery/jquery.latest.min.js</name>
-			</action>
+            <action method="addJs" ifconfig="infinitescroll2/general/enabled"><script>jquery/jquery.min.js</script></action>
 			<!--
 			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
 				<type>js</type>
@@ -103,10 +97,7 @@
 
     <catalogsearch_result_index>
 		<reference name="head">
-			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
-				<type>js</type>
-				<name>jquery/jquery.latest.min.js</name>
-			</action>
+            <action method="addJs" ifconfig="infinitescroll2/general/enabled"><script>jquery/jquery.min.js</script></action>
 			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
 				<type>js</type>
 				<name>jquery/infinitescroll2/jquery.infinitescroll.js</name>
@@ -129,13 +120,10 @@
 			</action>
 		</reference>
     </catalogsearch_result_index>
-	
+
 	<catalogsearch_advanced_index>
 		<reference name="head">
-			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
-				<type>js</type>
-				<name>jquery/jquery.latest.min.js</name>
-			</action>
+            <action method="addJs" ifconfig="infinitescroll2/general/enabled"><script>jquery/jquery.min.js</script></action>
 			<action method="addItem" ifconfig="infinitescroll2/general/enabled">
 				<type>js</type>
 				<name>jquery/infinitescroll2/jquery.infinitescroll.js</name>
@@ -158,5 +146,5 @@
 			</action>
 		</reference>
 	</catalogsearch_advanced_index>
-	
+
 </layout>
